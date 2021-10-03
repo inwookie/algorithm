@@ -6,6 +6,8 @@ public class BaekJoon_11654 {
 
         char input = scanner.next().charAt(0);
 
+        scanner.close();
+        
         int ascii = (int) input;
 
         System.out.print(ascii);
