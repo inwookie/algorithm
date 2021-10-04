@@ -9,7 +9,8 @@ public class BaekJoon_20651 {
         for (int i = 0; i < n; i++) {
             flowers[i] = scanner.nextInt();
         }
-
+        scanner.close(); 
+        
         int count = n; 
         for (int i = 0; i < n; i++) {
             for (int j = i + 1; j < n; j++) {
