@@ -23,6 +23,7 @@ public class jetBrains_TheInteger {
                 sum += n;
             }
         }
+        sc.close();
         sum -= exceed; 
         System.out.print(sum);
     }

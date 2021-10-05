@@ -18,5 +18,6 @@ public class jetBrains_EvenOrOdd {
                 System.out.println("odd");
             }
         }
+        sc.close();
     }
 }

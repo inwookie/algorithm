@@ -15,7 +15,7 @@ public class jetBrains_HarryPotter {
         Scanner sc = new Scanner(System.in);
         
         String name = sc.next(); 
-        
+        sc.close();
         switch (name) {
             case "gryffindor":
                 System.out.print("bravery");
