@@ -1,3 +1,4 @@
+package jetBrains;
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.io.IOException;
@@ -26,6 +27,7 @@ public class jetBrains_calculator {
                 break;
         }
     }
+
     public static void subtractTwoNumbers(long a, long b) {
         System.out.print(a - b); 
     }

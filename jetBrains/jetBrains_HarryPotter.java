@@ -1,3 +1,4 @@
+package jetBrains;
 // Harry Potter needs help identifying what each house means.
 
 // Read a string representing a house and output the following:

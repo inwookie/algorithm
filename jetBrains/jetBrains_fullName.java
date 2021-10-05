@@ -1,3 +1,4 @@
+package jetBrains;
 // Don't delete scanner import
 import java.util.Scanner;
 

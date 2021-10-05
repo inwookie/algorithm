@@ -1,3 +1,4 @@
+package jetBrains;
 import java.util.Scanner; 
 
 public class jetBrains_TheInteger {

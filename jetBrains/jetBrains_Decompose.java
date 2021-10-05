@@ -1,3 +1,4 @@
+package jetBrains;
 import java.util.Scanner;
 
 class jetBrains_Decompose {
