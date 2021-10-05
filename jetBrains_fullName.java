@@ -10,6 +10,7 @@ class jetBrains_fullName {
             String lastName = scanner.next();
             System.out.println(createFullName(firstName, lastName));
         }
+        scanner.close();
     }    
 
     //implement your method here
