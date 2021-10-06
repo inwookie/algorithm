@@ -1,3 +1,4 @@
+package jetBrains;
 
 interface Movable {
 
