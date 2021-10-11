@@ -12,10 +12,11 @@ public class jetBrains_password {
 
         sc.close();
 
-        String[] arrA  = new String[]{"A", "B"};
+        String[] arrA  = new String[]{"B", "C"};
         String[] arrB = new String[]{"a", "b"};
         int[] arrC = new int[]{1, 2};
-
+        String[] arrD = new String[]{"X", "Y"};
+        
         int remain = n - a - b - c;
 
         int checkA = 0; 
@@ -57,20 +58,18 @@ public class jetBrains_password {
             }
         }
 
-        if (n > a + b + c) {
-            int checkN = 0; 
-            while (remain != 0) {
-                if (checkN == 0) {
-                    System.out.print(arrA[0]);
-                    checkN++;
-                    remain--;
-                } else {
-                    System.out.print(arrA[1]);
-                    checkN--;
-                    remain--;
-                }
+        int checkD = 0;
+        while (remain != 0) {
+            if (checkD == 0) {
+                System.out.print(arrD[0]);
+                checkD++;
+                remain--;
+            } else {
+                System.out.print(arrD[1]);
+                checkD--;
+                remain--;
             }
         }
     }
 }
-
+    
