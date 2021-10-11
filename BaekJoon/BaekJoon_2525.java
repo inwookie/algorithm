@@ -16,7 +16,7 @@ public class BaekJoon_2525 {
         while (hour > 23) {
             hour -= 24; 
         }
-        System.out.print("%d %d", hour, mins);
+        System.out.printf("%d %d", hour, mins);
     }
     
 }
