@@ -9,6 +9,8 @@ public class jetBrains_isBetween {
         int b = sc.nextInt();
         int c = sc.nextInt();
 
+        sc.close();
+        
         if (a >= b  && a <= c || a <= b  && a >= c) {
             System.out.print(true);
         } else {
