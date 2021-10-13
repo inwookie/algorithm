@@ -13,6 +13,9 @@ public class BaekJoon_10039 {
             } 
             sum += grade;
         }
+
+        sc.close();
+        
         System.out.print(sum / 5);
     }
 }

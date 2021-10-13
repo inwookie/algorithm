@@ -20,5 +20,6 @@ public class BaekJoon_11557 {
             }
             System.out.println(winner);
         }
+        sc.close();
     }
 }
