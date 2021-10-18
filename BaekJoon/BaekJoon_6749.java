@@ -6,6 +6,9 @@ public class BaekJoon_6749 {
 
         int a = sc.nextInt();
         int b = sc.nextInt();
+
+        sc.close();
+        
         int sub = b - a; 
 
         
