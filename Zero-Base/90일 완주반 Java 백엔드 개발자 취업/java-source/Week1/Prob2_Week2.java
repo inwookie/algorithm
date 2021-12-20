@@ -33,7 +33,7 @@ public class Prob2_Week2 {
                 n = sc.nextInt();
             }
         }
-
+        sc.close();
         System.out.println("프로그램을 종료합니다.");
     }
 }
